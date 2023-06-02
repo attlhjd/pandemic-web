@@ -1,66 +1,59 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Projet : Jeu Pandemic en utilisant Laravel et React.js
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Ce projet est une application web basée sur le jeu de société Pandemic. L'application utilise Laravel comme back-end et React.js comme front-end.
 
-## About Laravel
+## Étapes du projet
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+1. **Configuration de l'environnement de développement**
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+    - Installer Composer, qui est un outil pour la gestion des dépendances en PHP.
+    - Installer Node.js et npm, qui sont nécessaires pour le développement front-end avec React.js.
+    - Installer Laravel via Composer.
+    - Installer React.js via npm.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+2. **Création de la structure du projet Laravel**
 
-## Learning Laravel
+    - Créer un nouveau projet Laravel en utilisant la commande `laravel new`.
+    - Configurer la base de données pour votre application Laravel.
+    - Créer les migrations nécessaires pour les tables de votre base de données.
+    - Créer les modèles Eloquent pour interagir avec vos tables de base de données.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+3. **Intégration de React.js dans Laravel**
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+    - Installer React.js dans votre projet Laravel en utilisant la commande `npm install react react-dom`.
+    - Configurer Laravel Mix pour compiler vos fichiers React.js.
+    - Créer vos premiers composants React.js et les intégrer dans votre application Laravel.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+4. **Développement de l'application**
 
-## Laravel Sponsors
+    - Définir les routes de votre application Laravel.
+    - Créer les contrôleurs pour gérer la logique de votre application.
+    - Créer les vues pour afficher les pages de votre application.
+    - Utiliser React.js pour créer une interface utilisateur interactive.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+5. **Test de l'application**
 
-### Premium Partners
+    - Écrire des tests unitaires pour votre code PHP en utilisant PHPUnit.
+    - Écrire des tests pour votre code React.js en utilisant Jest et React Testing Library.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+6. **Déploiement de l'application**
 
-## Contributing
+    - Préparer votre application pour la production en compilant vos assets et en optimisant votre code.
+    - Déployer votre application sur un serveur de production.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Documentation
 
-## Code of Conduct
+- [Documentation Laravel](https://laravel.com/docs)
+- [Documentation React.js](https://reactjs.org/docs/getting-started.html)
+- [Documentation Laravel Mix](https://laravel.com/docs/mix)
+- [Documentation PHPUnit](https://phpunit.de/manual/6.5/en/writing-tests-for-phpunit.html)
+- [React Testing Library Documentation](https://testing-library.com/docs/react-testing-library/intro/)
+- [Documentation Jest](https://jestjs.io/docs/en/getting-started)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Auteurs
 
-## Security Vulnerabilities
+- [Votre nom](mailto:your_email@example.com)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## Licence
 
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Ce projet est sous licence [MIT](https://choosealicense.com/licenses/mit/).
